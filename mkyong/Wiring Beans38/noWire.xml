@@ -1,0 +1,37 @@
+		<!-- No Wire -->
+	
+	
+	<bean id="customer" class="com.mkyong.common.Customer">
+                  <property name="person" ref="person" />
+	</bean>
+ 
+	<bean id="person" class="com.mkyong.common.Person" />
+	
+	
+	<!--byName  -->
+	
+	
+	<bean id="customer" class="com.mkyong.common.Customer" autowire="byName" />
+ 
+	<bean id="person" class="com.mkyong.common.Person" />
+	
+	
+	
+		<!--byType  -->
+		
+		<bean id="customer" class="com.mkyong.common.Customer" autowire="byType" />
+ 
+	<bean id="person" class="com.mkyong.common.Person" />
+	
+	
+			<!--constructor  -->
+	<bean id="customer" class="com.mkyong.common.Customer" autowire="constructor" />
+ 
+	<bean id="person" class="com.mkyong.common.Person" />
+	
+	
+				<!--autodetect  -->
+	
+	<bean id="customer" class="com.mkyong.common.Customer" autowire="autodetect" />
+ 
+	<bean id="person" class="com.mkyong.common.Person" />

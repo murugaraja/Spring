@@ -1,0 +1,22 @@
+<!--Spring-Customer.xml-->
+<beans xmlns="http://www.springframework.org/schema/beans"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
+ 
+	<bean id="CustomerBean" class="com.mkyong.common.Customer">
+ 
+		<constructor-arg>
+			<value>mkyong</value>
+		</constructor-arg>
+ 
+		<constructor-arg>
+			<value>188</value>
+		</constructor-arg>
+ 
+		<constructor-arg>
+			<value>28</value>
+		</constructor-arg>
+        </bean>
+ 
+</beans>

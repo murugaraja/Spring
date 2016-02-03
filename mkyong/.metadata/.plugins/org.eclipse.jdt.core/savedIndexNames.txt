@@ -1,0 +1,2 @@
+INDEX VERSION 1.127+F:\JavaProjectsWorkSpace\MkYong\.metadata\.plugins\org.eclipse.jdt.core
+1148575015.index
